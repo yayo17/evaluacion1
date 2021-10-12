@@ -1,0 +1,58 @@
+:root {
+  --main-color: orange;
+  --main-modal-color: white;
+  --second-color: #1e86c5;
+  --second-modal-color: yellow;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: var(--second-color);
+  background-color: var(--main-modal-color);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#miheader {
+  background: #014884;
+}
+
+#mifooter {
+  background: #014884;
+}
+
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+i {
+  color: #6c757d;
+}
